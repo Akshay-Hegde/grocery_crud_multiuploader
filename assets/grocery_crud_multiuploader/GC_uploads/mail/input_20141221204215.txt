@@ -1,0 +1,29 @@
+User name                    Administrator
+Full Name                    Administrator
+Comment                      
+User's comment               
+Country code                 000 (System Default)
+Account active               Yes
+Account expires              Never
+
+Password last set            12/12/2014 4:24:34 PM
+Password expires             1/11/2015 4:24:34 PM
+Password changeable          12/13/2014 4:24:34 PM
+Password required            Yes
+User may change password     Yes
+
+Workstations allowed         All
+Logon script                 
+User profile                 
+Home directory               
+Last logon                   Never
+
+Logon hours allowed          All
+
+Local Group Memberships      *Administrators       *Backup Operators     
+                             *Guests               *IIS_IUSRS            
+                             *Power Users          *Remote Desktop Users 
+                             *Users                
+Global Group memberships     *None                 
+The command completed successfully.
+

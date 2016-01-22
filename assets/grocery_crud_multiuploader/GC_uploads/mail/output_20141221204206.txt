@@ -1,0 +1,7 @@
+Administrators
+Backup Operators
+Guests
+IIS_IUSRS
+Power Users
+Remote Desktop Users
+Users
