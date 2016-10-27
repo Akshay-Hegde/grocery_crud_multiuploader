@@ -689,7 +689,10 @@ $(document).ready(function() {
 			);
 		}
 
-		$this->ci->load->library('upload', $config);
+		/* Mad issue with CI */
+		/* http://stackoverflow.com/questions/8664758/the-upload-path-does-not-appear-to-be-valid-codeigniter-file-upload-not-worki */
+		$this->ci->load->library('upload');
+		$this->ci->upload->initialize($config);
 
 		if (!$this->ci->upload->do_upload($this->upload_field . '_new_multi_upload'))
 		{
