@@ -200,7 +200,7 @@ class Grocery_CRUD_Multiuploader extends grocery_CRUD
 						$this->multiupload_file();
 						break;
 					case 'delete_file':
-						$this->delete_file();
+						$this->delete_multi_file();
 						break;
 					default:
 						break;
@@ -1005,7 +1005,7 @@ $(document).ready(function() {
          * @param	post array
 	 * @return      json string
 	 */
-	function delete_file($state=null)
+	function delete_multi_file($state=null)
 	{
 
 		$state     = $this->ci->input->post("state");
