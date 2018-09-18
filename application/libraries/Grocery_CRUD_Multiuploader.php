@@ -84,8 +84,8 @@ class Grocery_CRUD_Multiuploader extends grocery_CRUD
 	{
 		parent::__construct();
 		$this->ci = &get_instance();
-		$this->ci->load->model('grocery_CRUD_Model');
-		$this->basic_model = new grocery_CRUD_Model();
+		$this->ci->load->model('Grocery_crud_model');
+		$this->basic_model = new Grocery_crud_model();
 		log_message('debug', "Grocery_CRUD_Multiuploader Class Initialized.");
 	}
 	
